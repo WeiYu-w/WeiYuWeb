@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/*內容區塊邊框設定*/
+#content {
+    width: 980px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+    background-color: #ff705b;
+}
+
+/*視窗背景色設定*/
+body {
+    background-image: url(../img/aeb9da3288fef177e17a0c2e5408e615.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+/*連結顏色設定*/
+head {
+    color: rgb(134, 78, 8);
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    background-color: #f6bb9e;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #fff;
+    border: 1px solid orange;
+    margin: 0px 5px;
+}
+
+.menu a {
+    display: inline-block;
+    width: 90px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ffbcb1;
+    color: #0049e7;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    background-color: #a57feb;
+    color: rgb(78, 78, 196);
+}
+
+/*頁面標題設定*/
+h1 {
+    color: rgb(78, 78, 196);
+    background-color: #FFF;
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    box-shadow: #000 20px 20px 10px;
+    text-shadow: 5px 5px 5px #a57feb;
+}
+
+/*次標題設定*/
+h2 {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted;
+    border-left: 10px solid;
+    color: #6fbb9a;
+}
+
+/*小標題設定*/
+.h-sub {
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+.imgL {
+    float: left;
+    margin-right: 20px;
+}
+
+.imgR {
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*圓形圖片設定*/
+.imgg {
+    border-radius: 50%;
+}
+
+/*貓咪相片設定*/
+.photo {
+    width: 300px;
+    height: 250px;
+}
