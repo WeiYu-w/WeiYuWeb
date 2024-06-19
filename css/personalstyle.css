@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: #BEDAE2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B252E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+li {
+    font-size: 170%;
+    float: right;
+    font-weight: bold;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+#introduction{
+    padding-top: 150px;
+}
+h1{
+    float: left; 
+    margin-left: 50px; 
+    margin-top: 0.1px;
+    margin-bottom: 0.1px;
+    font-size: 80px;
+    font-weight: 1000;
+}
+span{
+    float: left; 
+    margin-left: 50px; 
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 1000px;
+}
+.motto{
+    float: left; 
+    margin-left: 50px; 
+    font-size: 25px;
+    font-weight: bold;
+}
+#contect{
+    float: left; 
+    margin-left: 50px; 
+    font-size: 15px;
+}
+.clear {
+    clear: both;
+}
+img{
+    margin-left: 50px;
+}
+p a{
+    margin-left: 50px;
+    font-size: 25px;
+}
+h2{
+    color: white;
+    font-size: xx-large;
+    letter-spacing: 1em;
+    background-color: #1B252E;
+    padding: 1%
+}
+h3{
+    color: #1B252E;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 50px;
+
+}
+.hobby{
+    float: left; 
+    margin-left: 50px; 
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background-color: #1B252E;
+    
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}

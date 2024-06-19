@@ -1,0 +1,23 @@
+body{
+    background-image:url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.initial{
+    padding-left: 50;
+    color: white;
+   font-size: 1250%;
+   text-shadow: 5px 5px 5px black;
+}
+.initiallogo{
+    float: left; margin-left: 20%; margin-top: 7%;
+}
+#connect{
+    color: white;
+    font-size: 200%;
+    font-weight: bolder;
+    text-align: center;
+   a{text-decoration:none;}
+   a{color: white;}
+}
